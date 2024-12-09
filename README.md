@@ -20,7 +20,13 @@ make
 
 ## Usage
 
-The executable is located to the `build/release/todo/` or `build/debug/todo/` directory.
+The executable is located to the `build/release/todo/` or `build/debug/todo/` directory. The you have to add this line to your session starting file (e.g. `.bashrc`):
+
+```bash
+todo -l
+```
+
+This works if you have the `todo` executable in your `PATH`. If you don't want to add the executable to your `PATH` you can use the full path to the executable. Obviously you must not edit the generated `.todo` file manually.
 
 ## Limitations
 
