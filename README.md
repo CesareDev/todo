@@ -7,9 +7,8 @@ Command line tool written in `C` for personal uses.
 ```bash
 git clone https://github.com/CesareDev/todo.git
 cd todo
-mkdir build
-cd build
-cmake ..
+./generate.sh
+cd build/release/todo
 make
 ```
 
