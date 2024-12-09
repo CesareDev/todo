@@ -2,11 +2,6 @@
 
 Command line tool written in `C` for personal uses.
 
-## Dependencies
-
-- `gcc`
-- `cmake`
-
 ## Installation
 
 ```bash
@@ -29,6 +24,3 @@ todo -l
 This works if you have the `todo` executable in your `PATH`. If you don't want to add the executable to your `PATH` you can use the full path to the executable. Obviously you must not edit the generated `.todo` file manually.
 
 ## Limitations
-
-- The tool is not yet implemented.
-- For now works only for bash.
