@@ -21,7 +21,3 @@ todo -l
 ```
 
 This works if you have the `todo` executable in your `PATH`. If you don't want to add the executable to your `PATH` you can use the full path to the executable. Obviously you must not edit the generated `.todo` file manually.
-
-## Limitations
-
-For now the tool can't delete single reminders. You have to call `todo -c` to clean all the reminders file.
